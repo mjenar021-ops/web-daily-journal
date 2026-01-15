@@ -56,7 +56,7 @@ if (!$user_data) {
                                    name="username" 
                                    value="<?= htmlspecialchars($user_data['username']) ?>" 
                                    readonly>
-                            <div class="form-text">Username tidak dapat diubah</div>
+                             <div class="form-text">Username tidak dapat diubah</div>
                         </div>
 
                         <!-- Ganti Password -->
@@ -68,8 +68,7 @@ if (!$user_data) {
                                    class="form-control" 
                                    id="password_baru" 
                                    name="password_baru" 
-                                   placeholder="Kosongkan jika tidak ingin mengganti password">
-                            <div class="form-text">Password minimal 4 karakter. Kosongkan jika tidak ingin mengganti password</div>
+                                   placeholder="Tuliskan Password Baru Jika Ingin Mengganti Password Saja">
                         </div>
 
                         <!-- Ganti Foto Profil -->
@@ -86,9 +85,9 @@ if (!$user_data) {
                         </div>
 
                         <!-- Tombol Simpan -->
-                        <div class="d-grid gap-2">
-                            <button type="submit" name="update_profile" class="btn btn-danger btn-lg">
-                                <i class="bi bi-save"></i> Simpan Perubahan
+                        <div class="mb-3">
+                            <button type="submit" name="update_profile" class="btn btn-primary">
+                                simpan
                             </button>
                         </div>
 
